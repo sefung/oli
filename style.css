@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=League+Gothic&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Kaushan+Script&family=League+Gothic&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 /* font-family: "League Gothic", sans-serif;
 font-family: "Kaushan Script", cursive;
  font-family: "Boldonse", system-ui;
@@ -9,43 +9,47 @@ font-family: "Bebas Neue", sans-serif; */
   /* background-image: url(oli/1.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
-  height:  100vh;
-padding-top: 0;
+  height: 100vh;
+  padding-top: 0;
   padding-bottom: 0;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
   width: 100%;
   z-index: 10;
-
-
-
 }
 .navbar {
   align-items: center;
   justify-content: space-between;
   opacity: 5px;
- border-bottom: 1px solid rgb(159, 177, 184);
+  border-bottom: 1px solid rgb(159, 177, 184);
 
-    transition: background-color 0.7s ease;
+  transition: background-color 0.7s ease;
 
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.192
+  ) !important; /* Sedikit transparan */
+  backdrop-filter: blur(5px); /* Efek blur modern */
 
-    background-color: rgba(255, 255, 255, 0.192) !important; /* Sedikit transparan */
-    backdrop-filter: blur(5px); /* Efek blur modern */
-  
-    transition: all 0.7s ease;
- 
+  transition: all 0.7s ease;
 }
 
 .navbar.scrolled {
-  background-color: hsla(0, 100%, 48%, 0.8) !important; /* Warna saat di-scroll */
+  background-color: hsla(
+    0,
+    100%,
+    48%,
+    0.8
+  ) !important; /* Warna saat di-scroll */
 }
 
 .navbar .navbar-brand {
   color: rgb(255, 255, 255);
   font-size: 30px;
-  
 }
 .navbar .nav-item a {
   color: rgb(255, 255, 255);
@@ -54,8 +58,8 @@ padding-top: 0;
 }
 
 .navbar .nav-item a:hover {
- color: rgb(88, 88, 88);
- transition: 0.8s;
+  color: rgb(88, 88, 88);
+  transition: 0.8s;
 }
 
 .Selamat {
@@ -73,5 +77,6 @@ padding-top: 0;
   font-style: bo;
 }
 
-
+.gambar-samping {
+}
 /*  */
