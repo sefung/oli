@@ -1,0 +1,31 @@
+/* Background gambar full page dengan overlay */
+
+
+/* Overlay semi-transparent */
+
+
+/* Style untuk konten utama */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Background konten semi-transparent */
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Style untuk navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand, .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+/* Style untuk card produk */
+.navbar .nav-item a {
+    color: brown;
+}
+
+
